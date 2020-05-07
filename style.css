@@ -26,7 +26,26 @@ body {
     color: #ececec;
 }
 
-div {}
+div {
+    padding: 15px 15px;
+    font-size: 30px
+}
+
+p {
+    padding-left: 30px;
+}
+
+p a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: #ececec;
+}
+
+p a:hover {
+    color: #ececec;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
 
 .footer {
     font-family: 'Libre Barcode 39 Text', cursive;
@@ -52,7 +71,7 @@ div {}
 }
 
 #navbar #logo {
-    color: white;
+    color: #30475e;
     font-size: 65px;
     font-weight: bold;
     transition: 0.4s;
@@ -76,3 +95,10 @@ div {}
 
 
 /* Uh Oh */
+
+ ::-moz-selection,
+ ::selection {
+    background: #ececec;
+    color: #30475e;
+    /* Gecko Browsers */
+}
