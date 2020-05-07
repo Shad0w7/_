@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Fonts-->
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Libre+Barcode+39+Text&family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+
+
+
+    <style></style>
+</head>
+
+<body>
+
+    <div id="navbar">
+        <a id="logo">~/SHAD0W7</a>
+    </div>
+
+    <div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+        <p>~/About/</p>
+    </div>
+
+
+
+
+    <div class="footer">
+        <p>Created by Shad0w7 in 2020</p>
+    </div>
+
+
+
+
+
+
+
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("navbar").style.padding = "30px 10px";
+                document.getElementById("logo").style.fontSize = "25px";
+                document.getElementById("navbar").style.backgroundColor = "transparent";
+                document.getElementById("logo").style.color = "#ececec";
+            } else {
+                document.getElementById("navbar").style.padding = "80px 10px";
+                document.getElementById("logo").style.fontSize = "65px";
+                document.getElementById("navbar").style.backgroundColor = "#ececec";
+                document.getElementById("logo").style.color = "black";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
