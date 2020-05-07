@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Fonts-->
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Libre+Barcode+39+Text&family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+
+
+
+    <style></style>
+</head>
+<!--
+COLORS!
+    #ececec - light White
+
+    #f2a365 - Tan
+
+    #30475e - Deep Blue
+
+    #222831 - Dark Blue
+-->
+
+<body>
+
+    <div id="navbar">
+        <a id="logo">~/SHAD0W7</a>
+    </div>
+
+    <div style="margin-top:210px;">
+        <h1>~/About/</h1>
+        <p>
+            <br> HS Coder/3D Artist/Designer/Reader/Writer (not really)
+        </p>
+    </div>
+
+    <div style="background-color: #f2a365;">
+        <h1>~/Projects/</h1>
+        <p>
+            <br> USACO Finish Chapter 1 lol im so behind
+            <br> Website Creation
+            <br> Blender Warriors content
+            <br> Indie Game
+        </p>
+    </div>
+
+
+    <div>
+        <h1>~/Finished Stuff/</h1>
+        <p>
+            <br> Renders
+        </p>
+    </div>
+
+    <div style="background-color: #222831;">
+        <h1>~/Contact/</h1>
+        <p>
+            <br> Discord: Shad0w7#0320
+            <br> Reddit:
+            <a href="https://www.reddit.com/user/Shad0w_7" style="text-decoration: none;">u/Shad0w_7</a>
+        </p>
+    </div>
+
+
+
+
+    <div class="footer">
+        <p>Created by <span style="color: #30475e; background-color: #ececec;">SHAD0W7</span> in 2020</p>
+    </div>
+
+
+
+
+
+
+
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("navbar").style.padding = "30px 10px";
+                document.getElementById("logo").style.fontSize = "25px";
+                document.getElementById("navbar").style.backgroundColor = "transparent";
+                document.getElementById("logo").style.color = "#ececec";
+            } else {
+                document.getElementById("navbar").style.padding = "80px 10px";
+                document.getElementById("logo").style.fontSize = "65px";
+                document.getElementById("navbar").style.backgroundColor = "#ececec";
+                document.getElementById("logo").style.color = "#30475e";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
